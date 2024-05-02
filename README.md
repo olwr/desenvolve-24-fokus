@@ -18,3 +18,12 @@ Projeto desenvolvido durante o curso de manipulação de elementos no DOM no pro
 [![Deploy with Vercel](https://vercel.com/button)](https://desenvolve-24-fokus.vercel.app)
 
 ### Prints
+
+**Foco ↓**
+![alt text](prints/focus.png)
+
+**Descanso Curto ↓**
+![alt text](prints/short-rest.png)
+
+**Descanso Longo ↓**
+![alt text](prints/long-rest.png)
