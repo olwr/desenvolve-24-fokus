@@ -27,10 +27,10 @@ let interval = null;
 
 // Functions
 function alternateContext(context) {
-    showTimer()
+    showTimer();
     buttons.forEach((context) => {
         context.classList.remove('active')
-    })
+    });
 
     html.setAttribute('data-contexto', context);
     appImg.setAttribute('src', `/imagens/${context}.png`);
@@ -57,6 +57,13 @@ const timerF = () => {
     if (timerTimeSeconds <= 0) {
         timerEndSound.play();
         alert('Tempo finalizado!');
+        const activeFocus = html.getAttribute('data-contexto') == 'foco';
+
+        if (activeFocus) {
+            const event = new CustomEvent('finishedFocus');
+            document.dispatchEvent(event);
+        };
+
         restart();
         return;
     }
@@ -99,7 +106,6 @@ focusBtn.addEventListener('click', () => {
     alternateContext('foco');
     focusBtn.classList.add('active');
 });
-
 
 shortRestBtn.addEventListener('click', () => {
     timerTimeSeconds = 300;
