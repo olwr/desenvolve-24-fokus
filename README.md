@@ -4,7 +4,7 @@
 [![contact](https://img.shields.io/badge/protonmail-darkslateblue?style=plastic&logo=protonmail&logoColor=darkslateblue&labelColor=white "socials")](mailto:olwrrb@protonmail.com") 
 [![contact](https://img.shields.io/badge/gmail-firebrick?style=plastic&logo=gmail&logoColor=B22222&labelColor=white "socials")](mailto:benites.olivr@gmail.com.com")
 
-Projeto desenvolvido durante o curso de manipulação de elementos no DOM no progorama Desenvolve, projeto promovido pelo Grupo Boticário e a escola Alura. O objetivo foi adicionar dinamismo, interações e timer com o JavaScript a página Fokus pomodoro, que já estava com HTML e CSS finalizados.
+Projeto desenvolvido durante o curso de manipulação de elementos no DOM no programa Desenvolve, projeto promovido pelo Grupo Boticário e a escola Alura. O objetivo foi adicionar dinamismo, interações e timer com o JavaScript a página Fokus pomodoro, que já estava com HTML e CSS finalizados. Foi adicionado também, com o curso de de manipulação de elemento e da localStorage, uma lista de tarefas que mantêm em armazenamento local as tarefas adicionadas pelo usuário, além de lembrar delas entre sessões e se algo foi alterado ou excluído.
 
 ### Tecnologias
 ![ide: vs code](https://img.shields.io/badge/IDE-visual_studio_code-lightblue?style=plastic&logo=visualstudiocode&logoColor=0078D4&labelColor=white&color=0078D4)
